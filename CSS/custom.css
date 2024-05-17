@@ -22,29 +22,60 @@ body {
     opacity: 0.8;
     color: rgb(255, 255, 255);
 }
+
 .intro {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    margin: auto;
     padding: 30px;
-    text-align: center;
     background-color: rgba(0, 0, 0, 0.31);
 }
-.main .header{
+
+.right {
+    width: 500px;
+    margin: 0 40px;
+}
+
+.left {
     padding: 100px 0;
+    width: 500px;
+    margin: 0 40px;
+    margin-top: 70px;
+}
+.left h3{
+    font-size: 30px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+
+.about {
+    margin: 8px 0;
+    padding: 8px 0;
+}
+
+.about h3 {
+    font-size: 30px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.about p {
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 h1 {
-    font-size: 38px;
-    margin-top: 30px;
-    font-family: 700;
+    font-size: 60px;
+    margin-top: 35px;
+    font-weight: 800;
 }
 
 h2 span {
-    margin: 0 7px;
+    margin-right: 9px;
 }
 
 h2 {
@@ -55,11 +86,10 @@ h2 {
 
 h4 {
     font-size: 25px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .container {
-    /* position: absolute; */
     left: 0;
     width: 100%;
     min-height: 60vh;
@@ -114,19 +144,17 @@ h4 {
 .section {
     width: 100%;
     height: 100vh;
-    background: url(/Images/hobbies.jpg) center center no-repeat ;
+    background: url(/Images/hobbies.jpg) center center no-repeat;
     color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* margin-top: 40px; */
 }
 
 .Interest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100vh;
-    text-align: center;
-    /* margin-top: 45px; */
     font-size: 55px;
     font-weight: 700;
     background-color: rgba(0, 0, 0, 0.31);
@@ -143,7 +171,7 @@ h4 {
 }
 
 .section ul li {
-    padding: 12px 80px;
+    padding: 16px 80px;
     margin: 0 40px;
 }
 
@@ -154,8 +182,21 @@ h4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: url(/Images/bg1.jpg) center center no-repeat;
 }
-.intern h1{
+
+.internee {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(86, 86, 86, 0.30);
+    color: white;
+}
+
+.intern h1 {
     font-size: 55px;
 }
 
@@ -165,7 +206,6 @@ h4 {
     font-size: 35px;
     font-weight: 500;
     line-height: 1.3;
-    color: black;
 }
 
 .footer {
@@ -175,9 +215,10 @@ h4 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(/Images/footer.jpg) center center no-repeat ;
+    background: url(/Images/footer.jpg) center center no-repeat;
 }
-.goals{
+
+.goals {
     width: 100%;
     height: 100vh;
     font-size: 58px;
